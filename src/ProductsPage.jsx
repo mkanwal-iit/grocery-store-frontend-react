@@ -29,13 +29,30 @@ export function ProductsPage() {
     setIsProductsShowVisible(true);
     setCurrentProduct(product);
   };
+  const handleUpdate = (product, params, successCallback) => {
+    console.log("handleUpdate");
+    axios.patch(`/products/${product.id}.json`, params).then((response) => {
+      console.log(response.data);
+      const newProducts = products.map((p) => {
+        if (p.id === product.id) {
+          return response.data;
+        } else {
+          return p;
+        }
+      });
+      // Assuming there's a state setter function called setProducts to update the products array in the state
+      setProducts(newProducts);
+      successCallback();
+      setIsPhotosShowVisible(false);
+    });
+  };
   useEffect(handleIndex, []);
   return (
     <main>
       <ProductsNew onCreate={handleCreate} />
       <ProductsIndex products={products} onShow={handleShow} />
       <Modal show={isProductsShowVisible} onClose={() => setIsProductsShowVisible(false)}>
-        <ProductsShow product={currentProduct} />
+        <ProductsShow product={currentProduct} onUpdate={handleUpdate} />
       </Modal>
     </main>
   );
