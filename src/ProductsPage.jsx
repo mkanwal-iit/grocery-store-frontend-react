@@ -43,7 +43,7 @@ export function ProductsPage() {
       // Assuming there's a state setter function called setProducts to update the products array in the state
       setProducts(newProducts);
       successCallback();
-      setIsPhotosShowVisible(false);
+      setIsProductsShowVisible(false);
     });
   };
   const handleDestroy = (product) => {

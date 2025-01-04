@@ -1,8 +1,9 @@
 export function ProductsShow({ product, onUpdate, onDestroy }) {
   const handleSubmit = (event) => {
+    console.log("handleSubmit");
     event.preventDefault();
-    const params = new FormData(event.currentTarget);
-    onUpdate(product, params, () => event.currentTarget.reset());
+    const params = new FormData(event.target);
+    onUpdate(product, params, () => event.target.reset());
   };
   return (
     <div>

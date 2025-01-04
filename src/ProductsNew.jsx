@@ -21,7 +21,7 @@ export function ProductsNew({ onCreate }) {
         <div>
           On Sale: <input name="on_sale" type="checkbox" />
         </div>
-        <button type="submit">Create</button>
+        <button type="submit">Create Product</button>
       </form>
     </div>
   );
