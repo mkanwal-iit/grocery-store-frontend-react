@@ -3,7 +3,7 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 /* Logo hover effect */
@@ -14,7 +14,7 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #7177e8aa);
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -23,11 +23,11 @@
 /* Background with Grocery Image */
 body {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url('https://media.tenor.com/4WCY6zdu3KAAAAAM/grocery-eat-you.gif') no-repeat center center fixed;
+    url('https://us.123rf.com/450wm/hanaschwarz/hanaschwarz1510/hanaschwarz151000014/47038825-autumn-fruit-and-leaves-vector-illustration.jpg?ver=6') no-repeat center center fixed;
   background-size: cover;
-  color: #ffffff;
-  font-family: 'Arial', sans-serif;
-  margin: 0;
+  color: rgb(235, 233, 233);
+  font-family: 'Arial',Arial, Helvetica, sans-serif;
+  margin: 2;
   min-height: 100vh;
 }
 
@@ -36,10 +36,10 @@ body {
   background: rgba(255, 255, 255, 0.85);
   border-radius: 8px;
   padding: 2rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(122, 60, 60, 0.2);
   max-width: 800px;
   margin: 2rem auto;
-  color: #333;
+  color: #cea2a2;
 }
 
 /* Card styling */
@@ -59,8 +59,8 @@ body {
 header {
   margin-bottom: 2rem;
   padding: 1rem;
-  background: rgba(0, 0, 0, 0.85);
-  color: #fff;
+  background: rgba(30, 26, 26, 0.85);
+  color: #b93838;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 header a {
@@ -80,7 +80,7 @@ footer {
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;
-  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 -4px 8px rgba(120, 108, 108, 0.2);
 }
 footer p {
   margin: 0;
@@ -91,7 +91,7 @@ button {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 4px;
-  background: #28a745;
+  background: #175e29;
   color: #fff;
   font-size: 1rem;
   cursor: pointer;
