@@ -4,6 +4,9 @@
 
 This is a React-based frontend for a grocery store application. It uses Vite for bundling and development, and Axios for making HTTP requests.
 
+Images are here:
+- https://github.com/mkanwal-iit/grocery-store-frontend-react/tree/main/images
+
 ## Project Structure
 
 ### Root Files
