@@ -5,6 +5,8 @@
 ## Description
 
 Welcome to the SMS Enhanced Grocery Platform GitHub repository! This platform melds the utility of an e-commerce grocery store with the dynamic interaction of SMS notifications, facilitated by Twilio's powerful communication APIs. Designed for grocery store owners and consumers alike, this application focuses on real-time engagement by notifying customers about product sales and promotions directly through SMS.
+![HomePage](HomePage.png)
+![SMSsender](MsgSender.png)
 
 ## Features
 
@@ -18,8 +20,6 @@ Welcome to the SMS Enhanced Grocery Platform GitHub repository! This platform me
 - **Frontend:** React,HTML, CSS, and JavaScript for crafting a user-friendly interface.
 - **Backend:** Ruby on Rails for handling server-side logic, including API integration and database operations.
 - **Database:** PostgreSQL
-  ![HomePage](HomePage/HomePage.png)
-  ![SMSsender](SMSsender/MsgSender.png)
 
 Images are here:
 
