@@ -1,6 +1,6 @@
 # React + Vite
 
-# Grocery Store Frontend
+# SmS Enhanced Grocery Store
 
 ## Description
 
