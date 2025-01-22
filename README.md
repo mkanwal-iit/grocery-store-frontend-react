@@ -2,23 +2,30 @@
 
 # Grocery Store Frontend
 
-This is a React-based frontend for a grocery store application. It uses Vite for bundling and development, and Axios for making HTTP requests.
-![HomePage](HomePage/HomePage.png)
+## Description
+
+Welcome to the SMS Enhanced Grocery Platform GitHub repository! This platform melds the utility of an e-commerce grocery store with the dynamic interaction of SMS notifications, facilitated by Twilio's powerful communication APIs. Designed for grocery store owners and consumers alike, this application focuses on real-time engagement by notifying customers about product sales and promotions directly through SMS.
+
+## Features
+
+- **User Authentication:** Provides secure login, logout, and signup features to manage user sessions and protect user data.
+- **Product Management:** Allows administrative users to add, update, and display products with essential details such as name, regular price, and discounted sale price.
+- **Twilio(API) Real-time SMS Notifications:** Integrates with Twilio to send out SMS alerts when products are listed as on sale, ensuring customers receive timely updates on discounts and special offers.
+- **Responsive Design:** Crafted to provide a seamless experience on various devices, making shopping accessible and straightforward from anywhere.
+
+## Technologies Used
+
+- **Frontend:** React,HTML, CSS, and JavaScript for crafting a user-friendly interface.
+- **Backend:** Ruby on Rails for handling server-side logic, including API integration and database operations.
+- **Database:** PostgreSQL
+  ![HomePage](HomePage/HomePage.png)
+  ![SMSsender](SMSsender/MsgSender.png)
 
 Images are here:
 
 - https://github.com/mkanwal-iit/grocery-store-frontend-react/tree/main/images
 
 ## Project Structure
-
-### Root Files
-
-- **.gitignore**: Specifies files and directories that should be ignored by Git.
-- **eslint.config.js**: Configuration file for ESLint.
-- **index.html**: The main HTML file that includes the root div for the React app.
-- **package.json**: Contains project metadata and dependencies.
-- **README.md**: This file.
-- **vite.config.js**: Configuration file for Vite.
 
 ### Source Directory
 
@@ -37,7 +44,6 @@ Images are here:
 - **LoginPage.jsx**: The login page component.
 - **LogoutLink.jsx**: A component that handles user logout.
 - **main.jsx**: The entry point for the React application. Renders the `App` component.
-- **Modal.jsx**: A reusable modal component.
 - **ProductsIndex.jsx**: A component that lists all products.
 - **ProductsIndexPage.jsx**: A page component that uses `ProductsIndex`.
 - **ProductsNew.jsx**: A component for creating a new product.
@@ -62,7 +68,7 @@ Images are here:
 1. Clone the repository:
 
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/mkanwal-iit/grocery-store-frontend-react.git
 
    ```
 
@@ -98,5 +104,19 @@ npm run preview
 you can clone backend on ruby on rails using this link
 
 ```sh
-https://github.com/mkanwal-iit/grocery_store_app.git
+ git clone  https://github.com/mkanwal-iit/grocery_store_app.git
+```
+
+2. Navigate to the project directory:
+   ```sh
+   cd grocery_store_app
+   ```
+3. Install dependencies:
+   ```sh
+   bundle install
+   ```
+4. To start the development server, run:
+
+```sh
+rails server
 ```
